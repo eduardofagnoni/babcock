@@ -1479,3 +1479,280 @@ header.principal .barra-menu nav {
 /*-----------------------------------------------
 	Orgulho de um trabalho bem feito - Home //
 -----------------------------------------------*/
+/*-----------------------------------------------
+	Section - Contatos
+-----------------------------------------------*/
+section#linhaDeContatos {
+  margin: 0 0 12px 0;
+  padding: 0;
+  width: 100%;
+  background: #e6e6e6;
+}
+section#linhaDeContatos .contatoSejaCliente {
+  display: block;
+  height: 184px;
+  background: #0081c8;
+  padding: 30px;
+  position: relative;
+}
+section#linhaDeContatos .contatoSejaCliente h4 {
+  font-family: 'Maven Pro', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.9em;
+  margin: 0 20px 0 0;
+  padding: 0;
+  float: left;
+}
+section#linhaDeContatos .contatoSejaCliente p {
+  font-family: 'Maven Pro', sans-serif;
+  color: #fff;
+  font-size: 2.1em;
+  clear: right;
+}
+section#linhaDeContatos .contatoSejaCliente a {
+  display: block;
+  position: relative;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 40px 0 0 0;
+}
+section#linhaDeContatos .contatoSejaCliente a::after {
+  content: "";
+  width: 45px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+section#linhaDeContatos .contatoSejaFornecedor {
+  display: block;
+  height: 184px;
+  background: #ffc600;
+  padding: 30px;
+  position: relative;
+}
+section#linhaDeContatos .contatoSejaFornecedor h4 {
+  font-family: 'Maven Pro', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.9em;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+section#linhaDeContatos .contatoSejaFornecedor a {
+  display: block;
+  position: relative;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 60px 0 0 0;
+}
+section#linhaDeContatos .contatoSejaFornecedor a::after {
+  content: "";
+  width: 45px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+section#linhaDeContatos .contatoTrabalheConosco {
+  display: block;
+  height: 184px;
+  background: #e61f83;
+  padding: 30px;
+  position: relative;
+}
+section#linhaDeContatos .contatoTrabalheConosco h4 {
+  font-family: 'Maven Pro', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.9em;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+section#linhaDeContatos .contatoTrabalheConosco a {
+  display: block;
+  position: relative;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 60px 0 0 0;
+}
+section#linhaDeContatos .contatoTrabalheConosco a::after {
+  content: "";
+  width: 45px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+/*-----------------------------------------------
+	Section - Contatos //
+-----------------------------------------------*/
+/*-----------------------------------------------
+	Footer
+-----------------------------------------------*/
+footer#footer {
+  background: #004094;
+  padding: 58px 0 40px 0;
+}
+footer#footer hr {
+  height: 1px;
+  background: #245ba3;
+  border: none;
+}
+footer#footer .links {
+  margin: 80px 0 0 0;
+}
+footer#footer .links p {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  color: #ffc600;
+  text-transform: uppercase;
+  font-size: 2.3em;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+footer#footer .links a {
+  font-family: 'Maven Pro', sans-serif;
+  color: #b8c2d8;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding: 0 0 15px 0;
+}
+footer#footer .links ul {
+  color: #b8c2d8;
+}
+footer#footer .links ul li a {
+  font-family: 'Maven Pro', sans-serif;
+  color: #b8c2d8;
+  font-size: 1.9em;
+  text-transform: none;
+  text-decoration: none;
+  display: block;
+  padding: 0 0 9px 0;
+}
+/*-----------------------------------------------
+	Footer //
+-----------------------------------------------*/
+/*-----------------------------------------------
+	Newsletter
+-----------------------------------------------*/
+.newsletter p {
+  font-family: 'Maven Pro', sans-serif;
+  color: #b8c2d8;
+}
+.newsletter span {
+  color: #ffc600;
+  font-size: 2em;
+  margin: 0 5px 0 -20px;
+}
+.newsletter #frm-newsletter input {
+  height: 36px;
+  background: #fff;
+  color: #004094;
+  font-family: 'Maven Pro', sans-serif;
+  padding: 11px 13px;
+  border: none;
+  width: 100%;
+  display: block;
+  margin: 0 0 8px 0;
+  font-size: 1.5em;
+}
+.newsletter ::placeholder,
+.newsletter ::-webkit-input-placeholder,
+.newsletter :-ms-input-placeholder {
+  color: #004094;
+}
+.newsletter #frm-newsletter button {
+  background: transparent;
+  border: solid 1px #b8c2d8;
+  width: 100%;
+  padding: 24px 28px 38px 28px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1.4em;
+  position: relative;
+}
+.newsletter #frm-newsletter button span {
+  width: 38px;
+  height: 3px;
+  background: #ffc600;
+  position: absolute;
+  left: 28px;
+  top: 48px;
+}
+.newsletter:nth-child(2) {
+  margin: 40px 0 0 0;
+  padding: 0 0 0 60px;
+}
+.newsletter:nth-child(3) {
+  margin: 40px 0 0 0;
+  padding: 0 0 0 75px;
+}
+/*-----------------------------------------------
+	Newsletter //
+-----------------------------------------------*/
+/*-----------------------------------------------
+	Ouvidoria
+-----------------------------------------------*/
+section#ouvidoria {
+  padding: 50px 0;
+  background: #e61f83;
+}
+section#ouvidoria h4 {
+  font-size: 2em;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+}
+section#ouvidoria h4 span,
+section#ouvidoria h4 strong {
+  color: #ffc600;
+  font-size: 1.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+section#ouvidoria h4 a {
+  margin: 0 0 0 10px;
+  color: #fff;
+  text-decoration: underline;
+}
+section#frmOuvidoria {
+  padding: 50px 0;
+  background: #eb609e;
+}
+section#frmOuvidoria .radio-inline {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+section#frmOuvidoria .radio-inline input {
+  width: 17px;
+  height: 17px;
+}
+/*-----------------------------------------------
+	Ouvidoria //
+-----------------------------------------------*/
