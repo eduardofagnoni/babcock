@@ -65,52 +65,141 @@ main {
 @import url("_styleCarrosselProjetosHome.less");
 @import url("_styleSectionsDeContatos.less");
 @import url("_styleFooter.less");
-
+@import url("_styleOuvidoria.less");
 
 
 
 
 
 /*-----------------------------------------------
-	Ouvidoria
+	Topos internos
 -----------------------------------------------*/
-
-section#ouvidoria {
-	padding: 50px 0;
-	background: #e61f83;
-}
-section#ouvidoria h4 {
-	font-size: 2em;
-	color: #fff;
-	.texto-maven;
-}
-section#ouvidoria h4 span,
-section#ouvidoria h4 strong {
-	color: #ffc600;
-	font-size: 1.8em;
-	font-weight: normal;
-	text-transform: uppercase;
-}
-section#ouvidoria h4 a {
-	margin: 0 0 0 10px;
-	color: #fff;
-	text-decoration: underline;
+#topos-internos {
+	width: 100%;
+	height: 274px;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
 }
 
-section#frmOuvidoria {
-	padding: 50px 0;
-	background: #eb609e;
+.topo-a-babcock {
+	background: url(../images/topos/a-babcock.jpg) no-repeat top center; 
 }
-section#frmOuvidoria .radio-inline {
-	.texto-maven;
-	font-size: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	vertical-align: middle;
+.topo-a-onde-fazemos {
+	background: url(../images/topos/onde-fazemos.jpg) no-repeat top center; 
 }
-section#frmOuvidoria .radio-inline input {
-	width: 17px; height: 17px;
+.topo-o-que-fazemos {
+	background: url(../images/topos/oque-fazemos.jpg) no-repeat top center; 
 }
-/*-----------------------------------------------
-	Ouvidoria //
------------------------------------------------*/
+.topo-manutencao-auto-sustentada {
+	background: url(../images/topos/manutencao-auto-sustentada.jpg) no-repeat top center;
+}
+.topo-manutencao-classe-mundial {
+	background: url(../images/topos/manutencao-classe-mundial.jpg) no-repeat top center;
+}
+.topo-solucoes-em-engenharia-complexa {
+	background: url(../images/topos/solucoes-em-engenharia-complexa.jpg) no-repeat top center;
+}
+.topo-como-fazemos {
+	background: url(../images/topos/como-fazemos.jpg) no-repeat top center;
+}
+.topo-novidades {
+	background: url(../images/topos/novidades.jpg) no-repeat top center;
+}
+.topo-fale-conosco {
+	background: url(../images/topos/fale-conosco.jpg) no-repeat top center;
+}
+
+.features {
+	background: #eeeeee;
+	position: relative;
+	z-index: 2;
+}
+
+@media only screen and (min-width: 320px) {
+	.features .col-1 {
+		background: #004094;
+		display: block;
+		width: 100%;
+		margin: 0 0 0 0;	
+		padding:40px;
+		//position: relative;
+	}
+	.features .col-1 h1 {
+		//position: absolute;
+		right: 40px;
+		bottom: 20px;
+		.texto-maven;
+		font-size: 6.5em;
+		color:#fff;
+		text-align: left;
+	}
+	.features ul {
+		display: block;
+		width: 100%;
+		margin:0;
+		padding:0;
+		list-style: none;
+	}
+	.features ul li {
+		display: block;
+		padding:30px 36px;
+	}
+	
+	.features ul li:nth-child(2) {
+		background: #fff;
+	}
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {
+	
+	.features ul {
+		display: table;
+		width: 100%;
+		height:235px;
+		table-layout: fixed;
+		border-spacing: 0;
+		margin:0;
+		padding:0;
+		list-style: none;
+	}
+	.features ul li {
+		display: table-cell;
+		vertical-align: bottom;
+		padding:30px 36px;
+	}
+	.features ul li:nth-child(1) {
+		padding-left:0;
+	}
+	.features ul li:nth-child(2) {
+		background: #fff;
+		-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.45);
+		-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.45);
+		box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.45);
+	}
+} //col-sm
+@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 992px) {
+	.features .col-1 {
+		background: #004094;
+		display: block;
+		width: 90%;
+		height:255px;
+		margin:-20px 0 0 0;	
+		position: relative;
+	}
+	.features .col-1 h1 {
+		position: absolute;
+		right: 40px;
+		bottom: 20px;
+		.texto-maven;
+		font-size: 6.5em;
+		color:#fff;
+		text-align: right;
+	}
+}
+@media only screen and (min-width: 1382px) {}
