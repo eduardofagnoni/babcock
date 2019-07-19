@@ -1,3 +1,5 @@
+<%@LANGUAGE="VBSCRIPT" codepage="65001" %>
+<!-- #include file="admin/_classes/__cl__conexao.asp" -->
 <!DOCTYPE html>
 <html lang="pt-BR"></html>
 <head>
@@ -37,12 +39,90 @@
                 </div>
             </div>            
         </div>
-    </section>   
+    </section>
 
-    
+    <section class="noticias">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8">
 
-    
+                    <%
+                        Dim oNovidades
+                        Set oNovidades = New Conexao
+                        oNovidades.AbreConexao()
+                        oNovidades.AbreTabela("select id,nome,fotoCapa,resumo from "&oNovidades.prefixoTabela&"novidades where ativo='s' AND regTerminado='s' order by dataProjeto asc")
 
+                        while not oNovidades.rs.eof
+                    %>
+
+                    <div style="cursor:pointer;" onclick="location.href='novidade-interna.asp?idNovidade=<%=oNovidades.rs("id")%>'">
+                    <img src="<%=oNovidades.enderecoNovidades%><%=oNovidades.rs("fotoCapa")%>" alt="<%=oNovidades.rs("nome")%>">
+                    <h3><%=oNovidades.rs("nome")%></h3>
+                    <p><%=oNovidades.rs("resumo")%></p>
+                    <a href="novidade-interna.asp?idNovidade=<%=oNovidades.rs("id")%>">Continuar Lendo</a>
+                    </div>                   
+
+                    <%
+                        oNovidades.rs.MoveNext()
+                        wend
+                        oNovidades.rs.Close()
+                        set oNovidades.rs = nothing
+                    %>  
+
+
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="eventos">
+                        <p class="tit">Eventos</p>
+                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
+                        <form action="" method="post" id="" name="">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7"> 
+                                    <div class="form-group">
+                                        <label class="sr-only">Mês</label>
+                                        <select class="form-control">
+                                            <option value="">Janeiro</option>
+                                            <option value="">Fevereiro</option>
+                                            <option value="">Março</option>
+                                            <option value="">Abril</option>
+                                            <option value="">Maio</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-5"> 
+                                    <div class="form-group">
+                                        <label class="sr-only">Ano</label>
+                                        <select class="form-control">
+                                            <option value="">2019</option>
+                                            <option value="">2020</option>
+                                            <option value="">2021</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="item">
+                            <span>20 jan 2019</span>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h4>
+                            <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        </div>
+
+                        <div class="item">
+                            <span>20 jan 2019</span>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h4>
+                            <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="ban">
+                        <img src="images/banner-marcacao-novidades.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
 
     <!-- #include file="_includes/seja-um-cliente.asp" -->
     <!-- #include file="_includes/footer.asp" -->

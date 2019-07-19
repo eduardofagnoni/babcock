@@ -55,6 +55,35 @@
     
     </section>
 
+
+    <section class="quadros-mod-3">
+        <div class="container geral-cont">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <div class="quadro">                        
+                        <img src="images/manutencao-de-classe-mundial.jpg" alt="">
+                        <h3>Tecnologia</h3>
+                        <p>Babcock tem profundo conhecimento técnico com décadas de experiência. Entendemos risco e resiliência e somos capazes de fornecer disponibilidade com inovação. Somos agnósticos em relação a equipamentos, o que nos permite trabalhar com qualquer OEM para especificar e dar suporte a seus produtos. identificamos e integramos a tecnologia ao nosso suporte ao longo da vida.</p>                        
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="quadro">
+                        <img src="images/solucoes-em-engenharia-complexa.jpg" alt="">
+                        <h3>A Infraestrutura Global</h3>
+                        <p>Temos experiência em operar e gerenciar ativos de infraestrutura crítica em ambientes altamente regulamentados, desde instalações marítimas de propriedade exclusiva, frotas aéreas e terrestres críticas, locais licenciados nuclearmente, bases navais, aéreas e militares, locais de treinamento técnico para aeronaves de propriedade do cliente.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="quadro">
+                        <img src="images/manutencao-autosustentada.jpg" alt="">
+                        <h3>Treinamento</h3>
+                        <p>O treinamento técnico é parte integrante de nossa oferta de engenharia. É uma exigência fundamental e contínua e uma parte essencial de nossa expertise. A condução de treinamento técnico em todo o Grupo nos permite compartilhar inovação e metodologia de sucesso em todos os setores para garantir que nossos clientes façam o melhor uso de seus recursos críticos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
 
 

@@ -1,3 +1,5 @@
+<%@LANGUAGE="VBSCRIPT" codepage="65001" %>
+<!-- #include file="admin/_classes/__cl__conexao.asp" -->
 <!DOCTYPE html>
 <html lang="pt-BR"></html>
 <head>
@@ -38,6 +40,62 @@
             </div>            
         </div>
     </section>   
+
+
+
+    <section class="expertice-mundial" style="background:#fff;">
+        
+        <div class="container"> 
+            <div class="row">           
+                <div class="col-xs-12 col-md-5">
+                    <!--<h2></h2>-->
+                </div>
+                <div class="col-xs-12 col-md-7 cont">
+                    <!--
+                    <p></p>
+                    -->
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+
+    <section class="quadros-mod-2">
+        <div class="container geral-cont">
+            <div class="row">
+
+                <%
+                    Dim oServicos
+                    Set oServicos = New Conexao
+                    oServicos.AbreConexao()
+                    oServicos.AbreTabela("select id,nome,fotoCapa,resumo from "&oServicos.prefixoTabela&"servicos where ativo='s' AND regTerminado='s' AND area=1 order by id asc")
+
+                    while not oServicos.rs.eof
+                %>
+
+                <div class="col-xs-12 col-md-3">
+                    <div class="quadro" style="cursor:pointer;" onclick="location.href='servicos-interna.asp?idServico=<%=oServicos.rs("id")%>'">                        
+                        <img src="<%=oServicos.enderecoServicos%><%=oServicos.rs("fotoCapa")%>" alt="<%=oServicos.rs("nome")%>">
+                        <h3><%=oServicos.rs("nome")%></h3>
+                        <p><%=oServicos.rs("resumo")%></p>
+                        <a href="servicos-interna.asp?idServico=<%=oServicos.rs("id")%>">Saiba mais</a>
+                    </div>
+                </div>
+
+                <%
+                    oServicos.rs.MoveNext()
+                    wend
+                    oServicos.rs.Close()
+                    set oServicos.rs = nothing
+                %>             
+                            
+
+            </div>
+        </div>
+    </section>
 
     
 

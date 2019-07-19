@@ -1,3 +1,4 @@
+<!-- #include file="admin/_classes/__cl__conexao.asp" -->
 <!DOCTYPE html>
 <html lang="pt-BR"></html>
 <head>
@@ -11,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="stylesheet/styleGuide.css">
     <title></title>
-
 
 </head>
 <body>
@@ -41,17 +41,17 @@
                     <div class="tit-banner-1">
                         <p>Padrão de segurança inglês. Confiança mundial.</p>
                         <p>Saiba porque somos os maiores especialistas em manutenção e soluções de engenharia.</p>
-                        <a href="">Conheça a Babcock</a>
+                        <a href="a-babcock.asp">Conheça a Babcock</a>
                     </div>
                     <div class="tit-banner-2">
                         <p>Onde tem engenharia, tem soluções Babcock.</p>
                         <p>Saiba como podemos tornar seus negócios mais eficientes, seguros e econômicos.</p>
-                        <a href="">Conheça a Babcock</a>
+                        <a href="a-babcock.asp">Conheça a Babcock</a>
                     </div>
                     <div class="tit-banner-3">
                         <p>50 anos de soluções sob medida para o mercado brasileiro.</p>
                         <p>Estamos presentes em todos os estados brasileiros. Confira nossa trajetória.</p>
-                        <a href="">Conheça a Babcock</a>
+                        <a href="a-babcock.asp">Conheça a Babcock</a>
                     </div>
                 </div>
                 
@@ -91,7 +91,7 @@
                         <figcaption>
                             <h3>O que fazemos</h3>
                             <p>Soluções para manutenção de serviços complexos e críticos.</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="oque-fazemos.asp">Saiba Mais</a>
                         </figcaption>
                     </figure>
                 </div>
@@ -101,7 +101,7 @@
                         <figcaption>
                             <h3>Onde fazemos</h3>
                             <p>Possuímos o portfólio mais abrangente do mercado.</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="onde-fazemos.asp">Saiba Mais</a>
                         </figcaption>
                     </figure>
                 </div>
@@ -111,7 +111,7 @@
                         <figcaption>
                             <h3>Como fazemos</h3>
                             <p>Serviços sob medida realizados por uma equipe de especialistas.</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="como-fazemos.asp">Saiba Mais</a>
                         </figcaption>
                     </figure>
                 </div>
@@ -129,24 +129,24 @@
                 
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
-                        <a href="">Aeroportuário</a>
-                        <a href="">Mineração</a>
-                        <a href="">Metalúrgica</a>
-                        <a href="">Farmacêutica</a>
-                        <a href="">Automotiva</a>
+                        <a href="servicos-interna.asp?idServico=6">Aeroportuário</a>
+                        <a href="servicos-interna.asp?idServico=17">Mineração</a>
+                        <a href="servicos-interna.asp?idServico=7">Metalúrgica</a>
+                        <a href="servicos-interna.asp?idServico=8">Farmacêutica</a>
+                        <a href="servicos-interna.asp?idServico=9">Automotiva</a>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <a href="">Financeira</a>
-                        <a href="">Petroquímica</a>
-                        <a href="">Frota</a>
-                        <a href="">Papel e celulose</a>
-                        <a href="">Energia</a>
+                        <a href="servicos-interna.asp?idServico=10">Financeira</a>
+                        <a href="servicos-interna.asp?idServico=11">Petroquímica</a>
+                        <a href="servicos-interna.asp?idServico=12">Frota</a>
+                        <a href="servicos-interna.asp?idServico=13">Papel e celulose</a>
+                        <a href="servicos-interna.asp?idServico=14">Energia</a>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <a href="">Defesa</a>
-                        <a href="">Óleo e gas</a>
-                        <a href="">Emergência</a>
-                        <a href="">Portos</a>
+                        <a href="servicos-interna.asp?idServico=20">Defesa</a>
+                        <a href="servicos-interna.asp?idServico=16">Óleo e gas</a>
+                        <a href="servicos-interna.asp?idServico=18">Emergência</a>
+                        <a href="servicos-interna.asp?idServico=19">Portos</a>
                     </div>
                 </div>
             </div>                    
@@ -164,21 +164,21 @@
                     <img src="images/solucao-engenharia-complexa.jpg" alt="Soluções em engenharia complexa">
                     <div>
                         <p>Soluções em engenharia complexa</p>
-                        <a href="">Saiba mais</a>
+                        <a href="solucoes-em-engenharia-complexa.asp">Saiba mais</a>
                     </div>                        
                 </div>
                 <div class="item-servico">
                     <img src="images/solucao-manutencao-de-classe-mundial.jpg" alt="Manutenção de classe mundial">
                     <div>
                         <p>Manutenção de classe mundial</p>
-                        <a href="">Saiba mais</a>
+                        <a href="manutencao-classe-mundial.asp">Saiba mais</a>
                     </div>                        
                 </div>
                 <div class="item-servico">
                     <img src="images/solucao-manutencao-autosustentada.jpg" alt="Manutenção autosustentada">
                     <div>
                         <p>Manutenção autosustentada</p>
-                        <a href="">Saiba mais</a>
+                        <a href="manutencao-auto-sustentada.asp">Saiba mais</a>
                     </div>                        
                 </div>
                 <div class="clearfix"></div>
@@ -196,12 +196,20 @@
             </div>
             <div class="col-xs-12 col-md-8">                    
                 <ul>
+                    <!--
                     <li><img src="images/icones/pirelli.png" alt=""></li>
                     <li><img src="images/icones/gru-airport.png" alt=""></li>
                     <li><img src="images/icones/itau.png" alt=""></li>
                     <li><img src="images/icones/vale.png" alt=""></li>
                     <li><img src="images/icones/csn.png" alt=""></li>
                     <li><img src="images/icones/brasken.png" alt=""></li>
+                    -->
+
+                    <li><img src="images/logos/logo_pirelli.png" alt=""></li>
+                    <li><img src="images/logos/logo_gru.png" alt=""></li>
+                    <li><img src="images/logos/logo_itau.png" alt=""></li>
+                    <li><img src="images/logos/logo_vale.png" alt=""></li>                    
+                    <li><img src="images/logos/logo_braskem.png" alt=""></li>
                 </ul>                    
             </div>
         </div>
@@ -227,48 +235,31 @@
                     <div class="crsl-items" data-navigation="navbtns">
                         <div class="crsl-wrap">
 
-                            <div class="crsl-item">
-                                <img src="images/galeria-marcacao-1.png" alt="">
-                                <div class="cont">
-                                    <p>Lorem ipsum dolor sit </p>
-                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <a href="">Saiba mais</a>
-                                </div>
-                            </div>
-                            
-                            <div class="crsl-item">
-                                <img src="images/galeria-marcacao-2.png" alt="">
-                                <div class="cont">
-                                    <p>Lorem ipsum dolor sit </p>
-                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <a href="">Saiba mais</a>
-                                </div>
-                            </div>   
+                            <%
+                                Dim oListaProjeto
+                                Set oListaProjeto = New Conexao
+                                oListaProjeto.AbreConexao()
+                                oListaProjeto.AbreTabela("select id,nome,fotoCapa,resumo from "&oListaProjeto.prefixoTabela&"projetos where ativo='s' AND regTerminado='s' order by nome asc")
 
-                            <div class="crsl-item">
-                                <img src="images/galeria-marcacao-1.png" alt="">
+                                while not oListaProjeto.rs.eof
+                            %>
+
+                            <div class="crsl-item" style="cursor:pointer;" onclick="location.href='projeto-interna.asp?idProjeto=<%=oListaProjeto.rs("id")%>'">
+                                <img src="<%=oListaProjeto.enderecoProjetos%><%=oListaProjeto.rs("fotoCapa")%>" alt="<%=oListaProjeto.rs("nome")%>">
                                 <div class="cont">
-                                    <p>Lorem ipsum dolor sit </p>
-                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <a href="">Saiba mais</a>
-                                </div>
-                            </div>   
-                            <div class="crsl-item">
-                                <img src="images/galeria-marcacao-2.png" alt="">
-                                <div class="cont">
-                                    <p>Lorem ipsum dolor sit </p>
-                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <a href="">Saiba mais</a>
+                                    <p><%=oListaProjeto.rs("nome")%></p>
+                                    <p><%=oListaProjeto.rs("resumo")%></p>
+                                    <a href="projeto-interna.asp?idProjeto=<%=oListaProjeto.rs("id")%>">Saiba mais</a>
                                 </div>
                             </div>
-                            <div class="crsl-item">
-                                <img src="images/galeria-marcacao-2.png" alt="">
-                                <div class="cont">
-                                    <p>Lorem ipsum dolor sit </p>
-                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <a href="">Saiba mais</a>
-                                </div>
-                            </div>                   
+
+                            <%
+                                oListaProjeto.rs.MoveNext()
+                                wend
+                                oListaProjeto.rs.Close()
+                                set oListaProjeto.rs = nothing
+                            %>                            
+
                         </div>
                     </div>
                 </div>
@@ -286,6 +277,8 @@
 <script src="assets/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="plugins/responsiveCarousel/js/responsiveCarousel.min.js"></script>
 <script src="js/menu.js"></script>
+
+
 
 <script>
 

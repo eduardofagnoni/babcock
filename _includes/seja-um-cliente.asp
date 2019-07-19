@@ -5,7 +5,7 @@
                     <div class="contatoSejaCliente">
                         <h4>Seja um <br>cliente <br>Babcock.</h4>
                         <p>Entre em contato e conheça <br>as soluções que a Babcock pode oferecer <br>para o seu negócio.</p>
-                        <a href="">Fale conosco</a>
+                        <a href="fale-conosco.asp">Fale conosco</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">

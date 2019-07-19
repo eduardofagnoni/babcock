@@ -56,6 +56,40 @@
     </section>
 
 
+
+    <section class="quadros-mod-1">
+        <div class="container geral-cont">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <div class="quadro" style="cursor:pointer;" onclick="location.href='solucoes-em-engenharia-complexa.asp'">                        
+                        <img src="images/solucoes-em-engenharia-complexa.jpg" alt="">
+                        <h3>soluções de engenharia complexa</h3>
+                        <p>Oferecemos suporte, com toda segurança e eficiência, a programas complexos e críticos em grande escala.</p>
+                        <a href="solucoes-em-engenharia-complexa.asp">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="quadro" style="cursor:pointer;" onclick="location.href='manutencao-classe-mundial.asp'">
+                        <img src="images/manutencao-de-classe-mundial.jpg" alt="">
+                        <h3>manutenção de classe mundial</h3>
+                        <p>Estamos capacitados para atuar em qualquer estratégia e em todas as especialidades, com Manutenção, Gerenciamento e Soluções para infraestruturas.</p>
+                        <a href="manutencao-classe-mundial.asp">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="quadro" style="cursor:pointer;" onclick="location.href='manutencao-auto-sustentada.asp'">
+                        <img src="images/manutencao-autosustentada.jpg" alt="">
+                        <h3>manutenção autosustentada</h3>
+                        <p>Metodologia exclusiva que em que analisamos, classificamos e quantificamos suas perdas para, então, criar um plano de recuperação e convertê-las em ganhos.</p>
+                        <a href="manutencao-auto-sustentada.asp">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- #include file="_includes/seja-um-cliente.asp" -->
     <!-- #include file="_includes/footer.asp" -->
     <!-- #include file="_includes/ouvidoria.asp" -->
