@@ -215,7 +215,7 @@
         </div>
     </section>
 
-    <section class="orgulho-de-um-trabalho-bem-feito">
+    <section class="orgulho-de-um-trabalho-bem-feito" id="projetos">
         <div class="container-fluid">
             <div class="col-xs-12 col-md-5">
                 <h2>Orgulho de<br> um trabalho<br> bem feito.</h2>

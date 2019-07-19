@@ -11,9 +11,9 @@
                             <li><a href="oque-fazemos.asp" id="id-o-que-fazemos">O que fazemos</a></li>
                             <li><a href="onde-fazemos.asp" id="id-onde-fazemos">Onde fazemos</a></li>
                             <li><a href="como-fazemos.asp" id="id-como-fazemos">Como fazemos</a></li>
-                            <li><a href="" id="id-responsabilidade">Responsabilidade</a></li>
+                            <!--<li><a href="" id="id-responsabilidade">Responsabilidade</a></li>-->
                             <li><a href="novidades.asp" id="id-novidades">Novidades</a></li>
-                            <li><a href="" id="id-projetos">Projetos</a></li>
+                            <li><a href="default.asp#projetos" id="id-projetos" onclick="teste();">Projetos</a></li>
                             <li><a href="fale-conosco.asp" id="id-fale-conosco">Fale conosco</a></li>
                         </ul>
                         <p id="id-linkdin"><span class="fa fa-linkedin"></span> <a href="https://www.linkedin.com/company/babcockinternationalbrazil/about/" target="_blank">@babcockinternationalbrazil</a></p>
@@ -46,7 +46,7 @@
         <div class="container">
             <a href="default.asp" id="logoBabcock"><img src="images/logo-babcock.png" alt="Babcock" title="Babcock" class="logoMaior"><img src="images/logo-m-babcock.png" alt="Babcock" title="Babcock" class="logoMenor"></a>
         
-            <button class="c-hamburger c-hamburger--htx" title="Menu">
+            <button id="bt" class="c-hamburger c-hamburger--htx" title="Menu">
                 <span>toggle menu</span>
             </button>
         </div>                

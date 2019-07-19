@@ -109,8 +109,40 @@ $(window).scroll(function() {
         $("#id-portos").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
     }
 
+ function teste() {
+
+    $("#bt").removeClass("is-active");
+
+    $("nav#menu-principal").animate({left:"-100%", opacity:"hide" }, 400);
+
+    $("#id-home").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-a-babcock").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-o-que-fazemos").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-onde-fazemos").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-como-fazemos").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-responsabilidade").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-novidades").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-projetos").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-fale-conosco").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-linkdin, #id-linkdin a").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
 
 
+    $("#id-mineracao").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-aeroportuaria").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-metalurgica").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-farmaceutica").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-automotiva").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-financeira").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-petroquimica").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-frota").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-papel-e-celulose").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-energia").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-defesa").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-oleo-e-gas").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-emergency").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+    $("#id-portos").delay(100).animate({top:"-10px", opacity:"hide" }, 400);
+
+ }
 
 
     /*******************************************************************

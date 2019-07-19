@@ -59,7 +59,7 @@
                     <img src="<%=oNovidades.enderecoNovidades%><%=oNovidades.rs("fotoCapa")%>" alt="<%=oNovidades.rs("nome")%>">
                     <h3><%=oNovidades.rs("nome")%></h3>
                     <p><%=oNovidades.rs("resumo")%></p>
-                    <a href="novidade-interna.asp?idNovidade=<%=oNovidades.rs("id")%>">Continuar Lendo</a>
+                    <a href="novidade-interna.asp?idNovidade=<%=oNovidades.rs("id")%>" class="linkBt">Continuar Lendo</a>
                     </div>                   
 
                     <%
@@ -102,22 +102,32 @@
                             </div>
                         </form>
 
-                        <div class="item">
-                            <span>20 jan 2019</span>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h4>
-                            <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        </div>
+                        <%
+                            Dim oEventos
+                            Set oEventos = New Conexao
+                            oEventos.AbreConexao()
+                            oEventos.AbreTabela("select id,nome,dataEvento,resumo from "&oEventos.prefixoTabela&"eventos where ativo='s' AND regTerminado='s' order by dataEvento asc")
 
-                        <div class="item">
-                            <span>20 jan 2019</span>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h4>
-                            <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        </div>
+                            while not oEventos.rs.eof
+                        %>
+
+                            <div class="item">
+                                <span><%=oEventos.rs("dataEvento")%></span>
+                                <h4><%=oEventos.rs("nome")%></h4>
+                                <p><%=oEventos.rs("resumo")%></p>
+                            </div>           
+
+                        <%
+                            oEventos.rs.MoveNext()
+                            wend
+                            oEventos.rs.Close()
+                            set oEventos.rs = nothing
+                        %>                         
 
                     </div>
 
                     <div class="ban">
-                        <img src="images/banner-marcacao-novidades.jpg" alt="">
+                        <a href="a-babcock.asp"><img src="images/banner-marcacao-novidades.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
